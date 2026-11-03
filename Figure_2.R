@@ -8,6 +8,8 @@ library(patchwork)
 figure_dir <- "outputs/figures/forest_proportion_update"
 dir.create(figure_dir, recursive = TRUE, showWarnings = FALSE)
 
+
+
 tree_ts <- read.csv("outputs/temporal/PA_treecover_temporal_inside_outside.csv")
 crop_ts <- read.csv("outputs/temporal/PA_cropland_temporal_inside_outside_gaced.csv")
 built_ts <- read.csv("outputs/temporal/PA_builtup_temporal_inside_outside.csv")
